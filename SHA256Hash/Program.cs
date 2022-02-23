@@ -6,6 +6,10 @@ namespace SHA256Hash
     {
         static void Main(string[] args)
         {
+            Encryption encryption = new Encryption();
+
+            encryption.ReadFromFile();
+
             Console.WriteLine("Hello World!");
         }
     }
